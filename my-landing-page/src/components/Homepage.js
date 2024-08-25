@@ -1,27 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Header from './Header';
+import Hero  from './Hero';
 
 
 const Homepage = () => {
   return (
     <div className="bg-black text-white">
-      <header className="p-4 flex justify-between items-center">
-        <h1 className="text-xl font-bold">Niklas Pettersson.</h1>
-        <nav>
-          <ul className="flex space-x-4">
-            <li><Link to="/" className="hover:text-yellow-400">Home</Link></li>
-            <li><Link to="/products" className="hover:text-yellow-400">Products</Link></li> 
-            <li><Link to="/casestudies" className="hover:text-yellow-400">Case Studies</Link></li>
-            <li><Link to="/contactme" className="hover:text-yellow-400">Get in touch</Link></li>
-            <li><Link to="/aboutme" className="hover:text-yellow-400">About me</Link></li>
-          </ul>
-        </nav>
-      </header>
+      <Header />
 
       <main>
-        <section className="h-screen flex items-center justify-center bg-cover bg-no-repeat" style={{ backgroundImage: "url('/path-to-your-image.jpg')" }}>
-          <h2 className="text-5xl font-extrabold">Crafting Digital Excellence.</h2>
-        </section>
+        <Hero
+          title="Crafting Digital Excellence."
+          backgroundImage="/path-to-your-image.jpg"
+        />
 
         <section className="p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center bg-white text-black">
           <div className="border p-4 rounded hover:bg-yellow-400 hover:text-white">

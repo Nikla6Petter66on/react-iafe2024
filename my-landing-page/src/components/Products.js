@@ -1,18 +1,19 @@
 import React from 'react';
 import Header from './Header';
+import Hero from './Hero';
 
 const Products = () => {
   return (
-    <div className="bg-white text-black">
-    <Header />
+    <div className="bg-black text-white">
+      <Header />
 
-
-        <section className="bg-black text-white h-screen flex items-center justify-center bg-cover bg-no-repeat" style={{ backgroundImage: "url('/path-to-your-image.jpg')" }}>
-          <h2 className="text-5xl font-extrabold">Products.</h2>
-        </section>
+      <Hero 
+        title="Products."
+        backgroundImage="my-background-image.png"
+      />
 
       {/* Product Categories */}
-      <section className="p-8 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+      <section className="bg-white text-black p-8 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
         <div className="border p-4 rounded hover:bg-yellow-400 hover:text-white">
           <p>Mobile apps</p>
         </div>
@@ -43,7 +44,7 @@ const Products = () => {
       </section>
 
       {/* Featured Products */}
-      <section className="p-8">
+      <section className="p-8 bg-white text-black">
         <h3 className="text-2xl font-bold mb-4">Mobile apps</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="border p-4 rounded">
@@ -71,7 +72,7 @@ const Products = () => {
       </section>
 
       {/* How I Work */}
-      <section className="p-8">
+      <section className="p-8 bg-white text-black">
         <h3 className="text-2xl font-bold mb-4">How I work</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
