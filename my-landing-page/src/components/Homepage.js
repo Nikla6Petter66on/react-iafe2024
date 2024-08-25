@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 const Homepage = () => {
   return (
@@ -7,11 +9,11 @@ const Homepage = () => {
         <h1 className="text-xl font-bold">Niklas Pettersson.</h1>
         <nav>
           <ul className="flex space-x-4">
-            <li><a href="#home" className="hover:text-yellow-400">Home</a></li>
-            <li><a href="#products" className="hover:text-yellow-400">Products</a></li>
-            <li><a href="#case-studies" className="hover:text-yellow-400">Case Studies</a></li>
-            <li><a href="#contact" className="hover:text-yellow-400">Get in touch</a></li>
-            <li><a href="#about" className="hover:text-yellow-400">About me</a></li>
+            <li><Link to="/" className="hover:text-yellow-400">Home</Link></li>
+            <li><Link to="/products" className="hover:text-yellow-400">Products</Link></li> 
+            <li><Link to="/casestudies" className="hover:text-yellow-400">Case Studies</Link></li>
+            <li><Link to="/contactme" className="hover:text-yellow-400">Get in touch</Link></li>
+            <li><Link to="/aboutme" className="hover:text-yellow-400">About me</Link></li>
           </ul>
         </nav>
       </header>
