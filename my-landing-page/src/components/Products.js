@@ -1,6 +1,9 @@
 import React from 'react';
 import Header from './Header';
 import Hero from './Hero';
+import { Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 
 const Products = () => {
   return (
@@ -73,7 +76,7 @@ const Products = () => {
 
       {/* How I Work */}
       <section className="p-8 bg-white text-black">
-        <h3 className="text-2xl font-bold mb-4">How I work</h3>
+        <h3 className="text-2xl font-bold mb-4">Fundamentals</h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h4 className="text-xl font-semibold mb-2">Collaborative Discovery</h4>
@@ -81,7 +84,7 @@ const Products = () => {
           </div>
           <div>
             <h4 className="text-xl font-semibold mb-2">Agile Development</h4>
-            <p>Transparent communication is the cornerstone of my stakeholder relationships. From project kickoff to delivery...</p>
+            <p>Lets embrace an agile development methodology that ensures flexibility and adaptability throughout the project lifecycle or for the infinity of the product. This iterative approach allows us to respond promptly to evolving requirements incorporate feedback seamlessly, and deliver high-quality solutions efficiently.</p>
           </div>
           <div>
             <h4 className="text-xl font-semibold mb-2">Transparent Communication</h4>
@@ -96,20 +99,47 @@ const Products = () => {
         <div className="flex justify-between items-center">
           <div className="text-center">
             <div className="w-16 h-16 mx-auto rounded-full bg-yellow-400 text-black flex items-center justify-center mb-2">1</div>
-            <p className="font-semibold">The Foundation</p>
+            <p className="font-semibold">foundation</p>
           </div>
           <div className="text-center">
             <div className="w-16 h-16 mx-auto rounded-full bg-yellow-400 text-black flex items-center justify-center mb-2">2</div>
-            <p className="font-semibold">UX/UI Exploration</p>
+            <p className="font-semibold">exploration</p>
           </div>
           <div className="text-center">
             <div className="w-16 h-16 mx-auto rounded-full bg-yellow-400 text-black flex items-center justify-center mb-2">3</div>
-            <p className="font-semibold">Development & Testing</p>
+            <p className="font-semibold">development & testing</p>
           </div>
           <div className="text-center">
             <div className="w-16 h-16 mx-auto rounded-full bg-yellow-400 text-black flex items-center justify-center mb-2">4</div>
-            <p className="font-semibold">Launch</p>
+            <p className="font-semibold">launch</p>
           </div>
+        </div>
+      </section>
+
+      {/* UX/UI Exploration Section */}
+      <section className="p-8 bg-white text-black">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="md:col-span-2">
+            <Outlet />
+          </div>
+          <div className="flex items-center h-full mt-8 md:mt-0 md:ml-8 lg:ml-12">
+            <ul className="space-y-8">
+              <li className="font-semibold border-b border-gray-300 pb-2">
+                <Link to="foundation" className="hover:text-yellow-400">foundation</Link>
+              </li>
+              <li className="font-semibold border-b border-gray-300 pb-2">
+                <Link to="exploration" className="hover:text-yellow-400">exploration</Link>
+              </li>
+              <li className="font-semibold border-b border-gray-300 pb-2">
+                <Link to="development-testing" className="hover:text-yellow-400">development & desting</Link>
+              </li>
+              <li className="font-semibold border-b border-gray-300 pb-2">
+                <Link to="launch" className="hover:text-yellow-400">launch</Link>
+              </li>
+            </ul>
+          </div>
+
+
         </div>
       </section>
 
