@@ -15,50 +15,89 @@ const Products = () => {
         backgroundImage="my-background-image.png"
       />
 
-      {/* Product Categories */}
-      <section className="bg-white text-black p-8 grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
-        <div className="border p-4 rounded hover:bg-yellow-400 hover:text-white">
-          <p>Mobile apps</p>
-        </div>
-        <div className="border p-4 rounded hover:bg-yellow-400 hover:text-white">
-          <p>Web design</p>
-        </div>
-        <div className="border p-4 rounded hover:bg-yellow-400 hover:text-white">
-          <p>Digital strategy</p>
-        </div>
-        <div className="border p-4 rounded hover:bg-yellow-400 hover:text-white">
-          <p>Development</p>
-        </div>
-        <div className="border p-4 rounded hover:bg-yellow-400 hover:text-white">
-          <p>Digitalization</p>
-        </div>
-        <div className="border p-4 rounded hover:bg-yellow-400 hover:text-white">
-          <p>Web apps</p>
-        </div>
-        <div className="border p-4 rounded hover:bg-yellow-400 hover:text-white">
-          <p>Design</p>
-        </div>
-        <div className="border p-4 rounded hover:bg-yellow-400 hover:text-white">
-          <p>Consulting</p>
-        </div>
-        <div className="border p-4 rounded hover:bg-yellow-400 hover:text-white">
-          <p>Startups</p>
-        </div>
-      </section>
+   {/* Product Categories Section */}
+<section className="p-8 bg-white text-black flex justify-center">
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div className="flex items-center space-x-4">
+      <div className="w-12 h-12 bg-yellow-400 flex items-center justify-center rounded-md">
+        {/* Icon placeholder - replace with actual icon */}
+      </div>
+      <span className="text-lg font-semibold">Mobile apps</span>
+    </div>
+
+    <div className="flex items-center space-x-4">
+      <div className="w-12 h-12 bg-yellow-400 flex items-center justify-center rounded-md">
+        {/* Icon placeholder - replace with actual icon */}
+      </div>
+      <span className="text-lg font-semibold">Web design</span>
+    </div>
+
+    <div className="flex items-center space-x-4">
+      <div className="w-12 h-12 bg-yellow-400 flex items-center justify-center rounded-md">
+        {/* Icon placeholder - replace with actual icon */}
+      </div>
+      <span className="text-lg font-semibold">Digital strategy</span>
+    </div>
+
+    <div className="flex items-center space-x-4">
+      <div className="w-12 h-12 bg-yellow-400 flex items-center justify-center rounded-md">
+        {/* Icon placeholder - replace with actual icon */}
+      </div>
+      <span className="text-lg font-semibold">Development</span>
+    </div>
+
+    <div className="flex items-center space-x-4">
+      <div className="w-12 h-12 bg-yellow-400 flex items-center justify-center rounded-md">
+        {/* Icon placeholder - replace with actual icon */}
+      </div>
+      <span className="text-lg font-semibold">Digitalization</span>
+    </div>
+
+    <div className="flex items-center space-x-4">
+      <div className="w-12 h-12 bg-yellow-400 flex items-center justify-center rounded-md">
+        {/* Icon placeholder - replace with actual icon */}
+      </div>
+      <span className="text-lg font-semibold">Web apps</span>
+    </div>
+
+    <div className="flex items-center space-x-4">
+      <div className="w-12 h-12 bg-yellow-400 flex items-center justify-center rounded-md">
+        {/* Icon placeholder - replace with actual icon */}
+      </div>
+      <span className="text-lg font-semibold">Design</span>
+    </div>
+
+    <div className="flex items-center space-x-4">
+      <div className="w-12 h-12 bg-yellow-400 flex items-center justify-center rounded-md">
+        {/* Icon placeholder - replace with actual icon */}
+      </div>
+      <span className="text-lg font-semibold">Consulting</span>
+    </div>
+
+    <div className="flex items-center space-x-4">
+      <div className="w-12 h-12 bg-yellow-400 flex items-center justify-center rounded-md">
+        {/* Icon placeholder - replace with actual icon */}
+      </div>
+      <span className="text-lg font-semibold">Startups</span>
+    </div>
+  </div>
+</section>
+
+
 
       {/* Featured Products */}
       <section className="p-8 bg-white text-black">
-        <h3 className="text-2xl font-bold mb-4">Mobile apps</h3>
+        <h3 className="text-2xl font-bold mb-4">web apps</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="border p-4 rounded">
-            <img src="/path-to-image-1.jpg" alt="Web app for vacation home owners" className="mb-2"/>
+            <img src="/images/vacatioHomeAppImage.jpg" alt="Web app for vacation home owners" className="mb-2"/>
             <h4 className="font-semibold">Web app for vacation home owners</h4>
-            <p className="text-gray-600">#mobileapp #productmanagement #design #digitaltransformation</p>
+            <p className="text-gray-600">#webapp #productmanagement #uxdesign #digitaltransformation #scrum</p>
           </div>
           <div className="border p-4 rounded">
-            <img src="/path-to-image-2.jpg" alt="Web app for team offsite booking" className="mb-2"/>
+            <img src="/images/teamOffsiteBookingImage.jpg" alt="Web app for team offsite booking" className="mb-2"/>
             <h4 className="font-semibold">Web app for team offsite booking</h4>
-            <p className="text-gray-600">#mobileapp #design #productmanagement</p>
+            <p className="text-gray-600">#webapp #uxdesign #uidesign #productmanagement #fullstack #coding</p>
           </div>
         </div>
         <div className="mt-4 text-right">
@@ -80,7 +119,7 @@ const Products = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h4 className="text-xl font-semibold mb-2">Collaborative Discovery</h4>
-            <p>I believe in the power of collaboration. My process begins with a thorough and collaborative discovery phase...</p>
+            <p>I believe in the power of collaboration. My process begins with a thorough and collaborative discovery phase, where we immerse ourselves in your business objectives and I ask a lot of questions. By understanding your vision, goals and challenges, we lay the foundation for a tailored and effective digital solution</p>
           </div>
           <div>
             <h4 className="text-xl font-semibold mb-2">Agile Development</h4>
@@ -88,7 +127,7 @@ const Products = () => {
           </div>
           <div>
             <h4 className="text-xl font-semibold mb-2">Transparent Communication</h4>
-            <p>Transparent communication is the cornerstone of my stakeholder relationships. From project kickoff to delivery...</p>
+            <p>Transparent communication is the cornerstone of my stakeholder relationships. From project kickoff to delivery, I maintain open and honest communication channels. Regular updates, progress reports, and collaborative decision-making keep you informed and engaged at every stage.</p>
           </div>
         </div>
       </section>
