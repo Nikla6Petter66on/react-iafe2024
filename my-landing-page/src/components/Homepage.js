@@ -115,7 +115,9 @@ const Homepage = () => {
             <img src="/images/niklasProfile.jpg" alt="Profile" className="w-32 h-32 rounded-full mb-4 md:mb-0 md:mr-4"/>
             <div>
               <h4 className="text-xl font-semibold">Product Leader</h4>
-              <p>I am an experienced Senior Product Manager...</p>
+              <p>I am an experienced Senior Product Manager, founder and business developer with over ten years of expertise in digital, particular within startup environments and in digital transformation settings. My background includes a strong focus on product development, user experience (UX/UI), and data-driven decision-making. I have successfully led cross-functional teams to deliver high quality, user-centric solutions from conceptualization to launch, ensuring aligment with company strategy and customer needs.
+                My career has been marked by a deep commmitment to simplifying complex digital experiences for non-tech-savvy clients, particulary in the travel and hotel-tech sectors but also across other industries. I have extensive experience conducting market research, analyzing product usage data, and transforming customer feedback into actionable insights that drive product enhancements and improve user satisfaction.
+              </p>
             </div>
           </div>
         </section>
