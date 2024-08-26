@@ -93,28 +93,59 @@ const Products = () => {
         </div>
       </section>
 
-      {/* Process */}
-      <section className="p-8 bg-gray-100 text-black">
-        <h3 className="text-2xl font-bold mb-4">Process</h3>
-        <div className="flex justify-between items-center">
-          <div className="text-center">
-            <div className="w-16 h-16 mx-auto rounded-full bg-yellow-400 text-black flex items-center justify-center mb-2">1</div>
-            <p className="font-semibold">foundation</p>
-          </div>
-          <div className="text-center">
-            <div className="w-16 h-16 mx-auto rounded-full bg-yellow-400 text-black flex items-center justify-center mb-2">2</div>
-            <p className="font-semibold">exploration</p>
-          </div>
-          <div className="text-center">
-            <div className="w-16 h-16 mx-auto rounded-full bg-yellow-400 text-black flex items-center justify-center mb-2">3</div>
-            <p className="font-semibold">development & testing</p>
-          </div>
-          <div className="text-center">
-            <div className="w-16 h-16 mx-auto rounded-full bg-yellow-400 text-black flex items-center justify-center mb-2">4</div>
-            <p className="font-semibold">launch</p>
-          </div>
-        </div>
+      {/* Call-to-Action Button */}
+      <section className="flex justify-end p-8 bg-gray-100 text-black">
+        <a href="/contact" className="bg-yellow-400 text-black font-semibold py-3 px-6 rounded-md inline-flex items-center hover:bg-yellow-500 transition-colors duration-300">
+        Get in touch
+        <span className="material-symbols-outlined text-2xl ml-2">
+          arrow_forward
+        </span>
+        </a>
       </section>
+
+      <section className="p-8 bg-gray-100 text-black">
+  <h3 className="text-2xl font-bold mb-4 text-center">Process</h3>
+  <div className="flex justify-center items-center space-x-4 md:space-x-8">
+    <div className="text-center">
+      <div className="w-28 h-28 flex items-center justify-center rounded-full border-2 border-yellow-400 text-black mb-2 p-2 hover:bg-yellow-400 hover:text-black transition-colors duration-300">
+        <span className="font-semibold text-sm">the foundation</span>
+      </div>
+    </div>
+
+    <span className="material-symbols-outlined text-4xl text-black">
+      arrow_forward
+    </span>
+
+    <div className="text-center">
+      <div className="w-28 h-28 flex items-center justify-center rounded-full border-2 border-yellow-400 text-black mb-2 p-2 hover:bg-yellow-400 hover:text-black transition-colors duration-300">
+        <span className="font-semibold text-sm">UX/UI Exploration</span>
+      </div>
+    </div>
+
+    <span className="material-symbols-outlined text-4xl text-black">
+      arrow_forward
+    </span>
+
+    <div className="text-center">
+      <div className="w-28 h-28 flex items-center justify-center rounded-full border-2 border-yellow-400 text-black mb-2 p-2 hover:bg-yellow-400 hover:text-black transition-colors duration-300">
+        <span className="font-semibold text-sm text-center">Development & Testing</span>
+      </div>
+    </div>
+
+    <span className="material-symbols-outlined text-4xl text-black">
+      arrow_forward
+    </span>
+
+    <div className="text-center">
+      <div className="w-28 h-28 flex items-center justify-center rounded-full border-2 border-yellow-400 text-black mb-2 p-2 hover:bg-yellow-400 hover:text-black transition-colors duration-300">
+        <span className="font-semibold text-sm">Launch</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
       {/* UX/UI Exploration Section */}
       <section className="p-8 bg-white text-black">
