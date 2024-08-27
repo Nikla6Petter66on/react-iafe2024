@@ -10,6 +10,7 @@ import Foundation from './components/Foundation';
 import Exploration from './components/Exploration';
 import DevelopmentTesting from './components/DevelopmentTesting';
 import Launch from './components/Launch';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="/contact" element={<ContactMe />} />
         <Route path="/products" element={<Products />}>
           <Route path="foundation" element={<Foundation />} />
           <Route path="exploration" element={<Exploration />} />
@@ -26,7 +28,7 @@ function App() {
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/casestudies" element={<CaseStudies />} /> 
         <Route path="/casestudydetails" element={<CaseStudyDetails />} />  
-        <Route path="/contactme" element={<ContactMe />} /> 
+        <Route path="/contactme" element={<ContactMe />} />
       </Routes>
     </Router>
   );

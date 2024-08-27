@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from './Header';
 import Hero  from './Hero';
+import Footer from './Footer';
 
 
 const Homepage = () => {
@@ -116,16 +117,14 @@ const Homepage = () => {
             <div>
               <h4 className="text-xl font-semibold">Product Leader</h4>
               <p>I am an experienced Senior Product Manager, founder and business developer with over ten years of expertise in digital, particular within startup environments and in digital transformation settings. My background includes a strong focus on product development, user experience (UX/UI), and data-driven decision-making. I have successfully led cross-functional teams to deliver high quality, user-centric solutions from conceptualization to launch, ensuring aligment with company strategy and customer needs.
-                My career has been marked by a deep commmitment to simplifying complex digital experiences for non-tech-savvy clients, particulary in the travel and hotel-tech sectors but also across other industries. I have extensive experience conducting market research, analyzing product usage data, and transforming customer feedback into actionable insights that drive product enhancements and improve user satisfaction.
+                My career has been marked by a deep commmitment to simplifying complex digital experiences for non-tech-savvy clients, particulary in the travel and hotel-tech sectors but also across other industries. I have extensive experience conducting market research, analyzing product usage data, and transforming customer feedback into actionable insights that drive product enhancements and improve user satisfaction. I have also experience in developing new markets via direct sales channels and I have closed million dollar deals across industries.
               </p>
             </div>
           </div>
         </section>
       </main>
 
-      <footer className="p-4 bg-black text-white text-center">
-        <p>&copy; 2024 Niklas Pettersson. Crafting Digital Excellence.</p>
-      </footer>
+      <Footer />
     </div>
   );
 };

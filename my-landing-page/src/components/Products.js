@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Hero from './Hero';
+import Footer from './Footer';
 import { Outlet } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
@@ -105,13 +106,21 @@ const Products = () => {
         </div>
       </section>
 
-      {/* Testimonial */}
-      <section className="p-8 bg-gray-100 text-black">
-        <blockquote className="italic text-lg mb-4">
-          "Niklas would be undoubtedly one of the greatest assets at any company, and he's my role model of how a manager and leader should be."
-        </blockquote>
-        <p className="font-semibold">Dimitrar Todorov, Area Manager, Expedia Group</p>
-      </section>
+    {/* Reference/Quote Section */}
+<section className="p-8 bg-gray-100 text-center text-black">
+  <blockquote className="text-xl font-semibold italic text-gray-800 mb-4">
+    "Niklas would be undoubtedly one of the greatest assets at any company, and he's my role model of how a manager and leader should be."
+  </blockquote>
+  <div className="flex flex-col items-center">
+    <img 
+      src="/images/referencePic.jpeg" 
+      alt="Dimitar Todorov" 
+      className="w-16 h-16 rounded-full mb-4"
+    />
+    <p className="font-semibold">Dimitar Todorov, Area Manager Expedia Group</p>
+  </div>
+</section>
+
 
       {/* How I Work */}
       <section className="p-8 bg-white text-black">
@@ -147,7 +156,7 @@ const Products = () => {
   <div className="flex justify-center items-center space-x-4 md:space-x-8">
     <div className="text-center">
       <div className="w-28 h-28 flex items-center justify-center rounded-full border-2 border-yellow-400 text-black mb-2 p-2 hover:bg-yellow-400 hover:text-black transition-colors duration-300">
-        <span className="font-semibold text-sm">the foundation</span>
+        <span className="font-semibold text-sm">foundation</span>
       </div>
     </div>
 
@@ -157,7 +166,7 @@ const Products = () => {
 
     <div className="text-center">
       <div className="w-28 h-28 flex items-center justify-center rounded-full border-2 border-yellow-400 text-black mb-2 p-2 hover:bg-yellow-400 hover:text-black transition-colors duration-300">
-        <span className="font-semibold text-sm">UX/UI Exploration</span>
+        <span className="font-semibold text-sm">exploration</span>
       </div>
     </div>
 
@@ -167,7 +176,7 @@ const Products = () => {
 
     <div className="text-center">
       <div className="w-28 h-28 flex items-center justify-center rounded-full border-2 border-yellow-400 text-black mb-2 p-2 hover:bg-yellow-400 hover:text-black transition-colors duration-300">
-        <span className="font-semibold text-sm text-center">Development & Testing</span>
+        <span className="font-semibold text-sm text-center">development & testing</span>
       </div>
     </div>
 
@@ -177,7 +186,7 @@ const Products = () => {
 
     <div className="text-center">
       <div className="w-28 h-28 flex items-center justify-center rounded-full border-2 border-yellow-400 text-black mb-2 p-2 hover:bg-yellow-400 hover:text-black transition-colors duration-300">
-        <span className="font-semibold text-sm">Launch</span>
+        <span className="font-semibold text-sm">launch</span>
       </div>
     </div>
   </div>
@@ -214,9 +223,7 @@ const Products = () => {
       </section>
 
       {/* Footer */}
-      <footer className="p-8 bg-black text-white text-center">
-        <p>&copy; 2024 Niklas Pettersson. Crafting Digital Excellence.</p>
-      </footer>
+      <Footer />
     </div>
   );
 };
