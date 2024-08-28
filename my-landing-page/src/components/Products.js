@@ -16,74 +16,67 @@ const Products = () => {
         backgroundImage="my-background-image.png"
       />
 
-   {/* Product Categories Section */}
-<section className="p-8 bg-white text-black flex justify-center">
-  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    <div className="flex items-center space-x-4">
-      <div className="w-12 h-12 bg-yellow-400 flex items-center justify-center rounded-md">
-        {/* Icon placeholder - replace with actual icon */}
+  {/* Product Categories Section */}
+  <section className="bg-white text-black py-16 px-8">
+  <div className="container mx-auto">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="flex flex-col items-center">
+        <div className="bg-yellow-400 p-4 rounded-lg">
+          <i className="icon-class-for-mobile-apps text-white text-3xl"></i>
+        </div>
+        <span className="mt-4 text-lg font-medium">Web Apps</span>
       </div>
-      <span className="text-lg font-semibold">Mobile apps</span>
-    </div>
-
-    <div className="flex items-center space-x-4">
-      <div className="w-12 h-12 bg-yellow-400 flex items-center justify-center rounded-md">
-        {/* Icon placeholder - replace with actual icon */}
+      <div className="flex flex-col items-center">
+        <div className="bg-yellow-400 p-4 rounded-lg">
+          <i className="icon-class-for-web-design text-white text-3xl"></i>
+        </div>
+        <span className="mt-4 text-lg font-medium">Web design</span>
       </div>
-      <span className="text-lg font-semibold">Web design</span>
-    </div>
-
-    <div className="flex items-center space-x-4">
-      <div className="w-12 h-12 bg-yellow-400 flex items-center justify-center rounded-md">
-        {/* Icon placeholder - replace with actual icon */}
+      <div className="flex flex-col items-center">
+        <div className="bg-yellow-400 p-4 rounded-lg">
+          <i className="icon-class-for-digital-strategy text-white text-3xl"></i>
+        </div>
+        <span className="mt-4 text-lg font-medium">Digital strategy</span>
       </div>
-      <span className="text-lg font-semibold">Digital strategy</span>
-    </div>
-
-    <div className="flex items-center space-x-4">
-      <div className="w-12 h-12 bg-yellow-400 flex items-center justify-center rounded-md">
-        {/* Icon placeholder - replace with actual icon */}
+      <div className="flex flex-col items-center">
+        <div className="bg-yellow-400 p-4 rounded-lg">
+          <i className="icon-class-for-development text-white text-3xl"></i>
+        </div>
+        <span className="mt-4 text-lg font-medium">Coding</span>
       </div>
-      <span className="text-lg font-semibold">Development</span>
-    </div>
-
-    <div className="flex items-center space-x-4">
-      <div className="w-12 h-12 bg-yellow-400 flex items-center justify-center rounded-md">
-        {/* Icon placeholder - replace with actual icon */}
+      <div className="flex flex-col items-center">
+        <div className="bg-yellow-400 p-4 rounded-lg">
+          <i className="icon-class-for-digitalization text-white text-3xl"></i>
+        </div>
+        <span className="mt-4 text-lg font-medium">Digitalization</span>
       </div>
-      <span className="text-lg font-semibold">Digitalization</span>
-    </div>
-
-    <div className="flex items-center space-x-4">
-      <div className="w-12 h-12 bg-yellow-400 flex items-center justify-center rounded-md">
-        {/* Icon placeholder - replace with actual icon */}
+      <div className="flex flex-col items-center">
+        <div className="bg-yellow-400 p-4 rounded-lg">
+          <i className="icon-class-for-web-apps text-white text-3xl"></i>
+        </div>
+        <span className="mt-4 text-lg font-medium">User Experience design</span>
       </div>
-      <span className="text-lg font-semibold">Web apps</span>
-    </div>
-
-    <div className="flex items-center space-x-4">
-      <div className="w-12 h-12 bg-yellow-400 flex items-center justify-center rounded-md">
-        {/* Icon placeholder - replace with actual icon */}
+      <div className="flex flex-col items-center">
+        <div className="bg-yellow-400 p-4 rounded-lg">
+          <i className="icon-class-for-design text-white text-3xl"></i>
+        </div>
+        <span className="mt-4 text-lg font-medium">Business Development</span>
       </div>
-      <span className="text-lg font-semibold">Design</span>
-    </div>
-
-    <div className="flex items-center space-x-4">
-      <div className="w-12 h-12 bg-yellow-400 flex items-center justify-center rounded-md">
-        {/* Icon placeholder - replace with actual icon */}
+      <div className="flex flex-col items-center">
+        <div className="bg-yellow-400 p-4 rounded-lg">
+          <i className="icon-class-for-consulting text-white text-3xl"></i>
+        </div>
+        <span className="mt-4 text-lg font-medium">Consulting</span>
       </div>
-      <span className="text-lg font-semibold">Consulting</span>
-    </div>
-
-    <div className="flex items-center space-x-4">
-      <div className="w-12 h-12 bg-yellow-400 flex items-center justify-center rounded-md">
-        {/* Icon placeholder - replace with actual icon */}
+      <div className="flex flex-col items-center">
+        <div className="bg-yellow-400 p-4 rounded-lg">
+          <i className="icon-class-for-startups text-white text-3xl"></i>
+        </div>
+        <span className="mt-4 text-lg font-medium">Startups</span>
       </div>
-      <span className="text-lg font-semibold">Startups</span>
     </div>
   </div>
 </section>
-
 
 
       {/* Featured Products */}
