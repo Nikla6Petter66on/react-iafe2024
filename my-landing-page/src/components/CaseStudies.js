@@ -2,6 +2,8 @@ import React from 'react';
 import Hero from './Hero'; // Import the Hero component
 import Footer from './Footer'; // Import the Footer component
 import Header from './Header';
+import { Link } from 'react-router-dom';
+
 
 const CaseStudies = () => {
   return (
@@ -76,28 +78,35 @@ const CaseStudies = () => {
   </div>
 </section>
 
-      {/* Case Studies Section */}
+{/* Case Studies Section */}
 <section className="bg-gray-100 py-8 text-black">
-  <div className="container mx-auto">
-    <h2 className="text-2xl font-bold mb-6">Web Products</h2>
-    <div className="grid grid-cols-2 gap-8">
+        <div className="container mx-auto">
+          <h2 className="text-2xl font-bold mb-6">Web Products</h2>
+          <div className="grid grid-cols-2 gap-8">
 
-      {/* Case Study 1 */}
-      <div className="bg-white p-4 rounded-lg shadow-lg">
-        <img src="/images/instaroomBookWithUs.png" alt="Case Study 1" className="rounded-t-lg w-full" />
-        <h3 className="text-xl font-semibold mt-4">instaroom</h3>
-        <p className="text-gray-600">#startups #productmanagement #coding #design #digitalstrategy</p>
-      </div>
+            {/* Case Study 1 */}
+            <Link to="/instaroom" className="bg-white p-4 rounded-lg shadow-lg flex flex-col h-full">
+              <img src="/images/instaroomAssistant.png" alt="Instaroom Case Study" className="rounded-t-lg w-full" />
+              <h3 className="text-xl font-semibold mt-4">instaroom</h3>
+              <div className="mt-auto">
+                <p className="text-gray-600">#startups #productmanagement #coding #design #digitalstrategy</p>
+              </div>
+            </Link>
 
-      {/* Case Study 2 */}
-      <div className="bg-white p-4 rounded-lg shadow-lg">
-        <img src="/images/instaroomAdminPanel.jpg" alt="Case Study 2" className="rounded-t-lg w-full" />
-        <h3 className="text-xl font-semibold mt-4">interhome</h3>
-        <p className="text-gray-600">#digitaltransformation #digitalstrategy #productmanagement #design</p>
-      </div>
-    </div>
-  </div>
-</section>
+            {/* Case Study 2 */}
+            <Link to="/interhome" className="bg-white p-4 rounded-lg shadow-lg flex flex-col h-full">
+              <img src="/images/Arr&DepHomePage.png" alt="Interhome Case Study" className="rounded-t-lg w-full" />
+              <h3 className="text-xl font-semibold mt-4">interhome</h3>
+              <div className="mt-auto">
+                <p className="text-gray-600">#digitaltransformation #digitalstrategy #productmanagement #design</p>
+              </div>
+            </Link>
+
+          </div>
+        </div>
+      </section>
+
+
 
       {/* Quote Section */}
       <section className="bg-white text-black py-8">

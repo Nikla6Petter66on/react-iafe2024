@@ -4,6 +4,7 @@ import Hero from './Hero';
 import Footer from './Footer';
 import { Outlet } from 'react-router-dom';
 import { Link } from 'react-router-dom';
+import CaseStudies from './CaseStudies';
 
 
 const Products = () => {
@@ -95,7 +96,7 @@ const Products = () => {
           </div>
         </div>
         <div className="mt-4 text-right">
-          <a href="/projects" className="text-yellow-400 hover:underline">View more projects &rarr;</a>
+          <Link to="/CaseStudies" className="text-yellow-400 hover:underline">View more products &rarr;</Link>
         </div>
       </section>
 

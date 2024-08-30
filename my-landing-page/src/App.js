@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Homepage from './components/Homepage';
 import AboutMe from './components/AboutMe';
 import CaseStudies from './components/CaseStudies';
@@ -11,6 +11,8 @@ import Exploration from './components/Exploration';
 import DevelopmentTesting from './components/DevelopmentTesting';
 import Launch from './components/Launch';
 import Footer from './components/Footer';
+import Instaroom from './components/instaroom';
+import Interhome from './components/interhome';
 
 
 function App() {
@@ -27,8 +29,8 @@ function App() {
         </Route>
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/casestudies" element={<CaseStudies />} /> 
-        <Route path="/casestudydetails" element={<CaseStudyDetails />} />  
-        <Route path="/contactme" element={<ContactMe />} />
+        <Route path="/instaroom" element={<Instaroom />} /> 
+        <Route path="/interhome" element={<Interhome />} />
       </Routes>
     </Router>
   );

@@ -96,6 +96,16 @@ const Homepage = () => {
               <h4 className="font-semibold">Chat-bot platform for the travel industry</h4>
               <p>Coding, Design, Digital Strategy, Consulting, Startups, Product Management, Startups</p>
             </div>
+            <div className="border p-4 rounded">
+              <img src="/images/interchalet.png" alt="Work 3" className="mb-2"/>
+              <h4 className="font-semibold mt-50">Booking site for vacation homes</h4>
+              <p>Digital Strategy, Product Management, Digitalization, User experience design</p>
+            </div>
+            <div className="border p-4 rounded">
+              <img src="/images/artigianstudio.png" alt="Work 3" className="mb-2"/>
+              <h4 className="font-semibold mt-50">Music production website</h4>
+              <p>Web-design, Coding, User experience design</p>
+            </div>
           </div>
         </section>
 
