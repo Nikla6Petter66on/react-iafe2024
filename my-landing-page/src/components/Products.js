@@ -13,7 +13,7 @@ const Products = () => {
       <Header />
 
       <Hero 
-        title="Products."
+        title="Product."
         backgroundImage="my-background-image.png"
       />
 
@@ -82,21 +82,21 @@ const Products = () => {
 
       {/* Featured Products */}
       <section className="p-8 bg-white text-black">
-        <h3 className="text-2xl font-bold mb-4">web apps</h3>
+        <h3 className="text-2xl font-bold mb-4">Aditional examples of products I have developed</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="border p-4 rounded">
-            <img src="/images/vacatioHomeAppImage.jpg" alt="Web app for vacation home owners" className="mb-2"/>
-            <h4 className="font-semibold">Web app for vacation home owners</h4>
-            <p className="text-gray-600">#webapp #productmanagement #uxdesign #digitaltransformation #scrum</p>
+          <div className="border p-4 rounded mt-auto">
+            <img src="/images/interchalet.png" alt="Web app for vacation home owners" className="mb-2"/>
+            <h4 className="font-semibold">Search and book vacation homes site</h4>
+            <p className="text-gray-600"> #productmanagement #uxdesign #digitaltransformation #scrum</p>
           </div>
           <div className="border p-4 rounded">
-            <img src="/images/teamOffsiteBookingImage.jpg" alt="Web app for team offsite booking" className="mb-2"/>
-            <h4 className="font-semibold">Web app for team offsite booking</h4>
-            <p className="text-gray-600">#webapp #uxdesign #uidesign #productmanagement #fullstack #coding</p>
+            <img src="/images/instaroomChatPanel.jpg" alt="Web app for team offsite booking" className="mb-2"/>
+            <h4 className="font-semibold">SaaS platform powering customizable conversational automations</h4>
+            <p className="text-gray-600">#startups #uxdesign #uidesign #productmanagement #fullstack #coding</p>
           </div>
         </div>
         <div className="mt-4 text-right">
-          <Link to="/CaseStudies" className="text-yellow-400 hover:underline">View more products &rarr;</Link>
+          <Link to="/CaseStudies" className="text-yellow-400 hover:underline">View case studies &rarr;</Link>
         </div>
       </section>
 
@@ -216,7 +216,6 @@ const Products = () => {
         </div>
       </section>
 
-      {/* Footer */}
       <Footer />
     </div>
   );

@@ -23,11 +23,11 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-8 text-sm">
-        <Link to="/" className="hover:text-yellow-400">home</Link>
-        <Link to="contact" className="hover:text-yellow-400">get in touch</Link>
-        <Link to="products" className="hover:text-yellow-400">products</Link>
-        <Link to="aboutme" className="hover:text-yellow-400">about me</Link>
-        <Link to="casestudies" className="hover:text-yellow-400">case studies</Link>
+        <Link to="/" className="hover:text-yellow-400">Home</Link>
+          <Link to="/products" className="hover:text-yellow-400">Product</Link>
+          <Link to="/casestudies" className="hover:text-yellow-400">Case Studies</Link>
+          <Link to="/contact" className="hover:text-yellow-400">Get in touch</Link>
+          <Link to="/aboutme" className="hover:text-yellow-400">About me</Link>
         </div>
       </div>
     </footer>

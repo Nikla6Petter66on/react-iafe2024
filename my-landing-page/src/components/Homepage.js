@@ -91,23 +91,15 @@ const Homepage = () => {
               <h4 className="font-semibold">Web app for booking team offsites</h4>
               <p>Coding, Design, Digital Strategy, Web-App, Startups</p>
             </div>
-            <div className="border p-4 rounded">
-              <img src="/images/instaroomAssistant.png" alt="Work 3" className="mb-2"/>
-              <h4 className="font-semibold">Chat-bot platform for the travel industry</h4>
-              <p>Coding, Design, Digital Strategy, Consulting, Startups, Product Management, Startups</p>
-            </div>
-            <div className="border p-4 rounded">
-              <img src="/images/interchalet.png" alt="Work 3" className="mb-2"/>
-              <h4 className="font-semibold mt-50">Booking site for vacation homes</h4>
-              <p>Digital Strategy, Product Management, Digitalization, User experience design</p>
-            </div>
-            <div className="border p-4 rounded">
-              <img src="/images/artigianstudio.png" alt="Work 3" className="mb-2"/>
-              <h4 className="font-semibold mt-50">Music production website</h4>
-              <p>Web-design, Coding, User experience design</p>
-            </div>
           </div>
+
+          <div className="mt-4 text-right">
+          <Link to="/products" className="text-yellow-400 hover:underline">View more products &rarr;</Link>
+        </div>
+
         </section>
+
+        
 
         <section className="bg-white py-16 px-8 text-black">
   <div className="container mx-auto bg-white shadow-lg rounded-lg overflow-hidden flex flex-col md:flex-row items-center p-8 md:p-16">

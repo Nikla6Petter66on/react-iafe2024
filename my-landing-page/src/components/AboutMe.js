@@ -18,7 +18,7 @@ const AboutMe = () => {
 
       {/* Work with Me Section */}
       <section className="bg-white text-black py-16 px-8">
-        <div className="container mx-auto">
+        <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Work with me</h2>
           <p className="mb-8">
             I am always on the lookout for creative minds and tech enthusiasts to join me in creating exciting new products. 
@@ -27,8 +27,12 @@ const AboutMe = () => {
           </p>
 
           {/* Image Section */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-            <img src="/images/niklassmall-min.jpg" alt="Profile" className="rounded-lg shadow-md w-full h-auto object-cover" />
+          <div className="flex justify-center">
+            <img 
+              src="/images/niklasProfile.jpg" 
+              alt="Profile" 
+              className="rounded-lg shadow-md w-1/3 h-auto object-cover" 
+            />
           </div>
         </div>
       </section>

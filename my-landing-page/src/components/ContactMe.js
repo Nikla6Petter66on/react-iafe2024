@@ -29,12 +29,12 @@ const ContactMe = () => {
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8">Contact me</h2>
           <div className="bg-gray-100 p-8 rounded-lg shadow-lg inline-block">
-            <h3 className="text-xl font-semibold mb-4">Click below to send me an email</h3>
+            <h3 className="text-xl font-semibold mb-4">Shoot me an email</h3>
             <a
               href="mailto:niklas@iamfrontend.com?subject=Lets grab a coffee&body=Hi Niklas, looking forward to getting in touch"
               className="bg-yellow-400 hover:bg-yellow-500 text-white font-bold py-3 px-6 rounded-lg inline-block"
             >
-              Contact Me
+              Click here
             </a>
           </div>
         </div>

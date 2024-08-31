@@ -53,7 +53,7 @@ const Interhome = () => {
                 alt="Reference" 
                 className="inline-block rounded-full w-16 h-16 mt-4" 
               />
-              <p className="text-gray-700 mt-2">Max Ziegler, Former KAM at Out Of Home</p>
+              <p className="text-gray-700 mt-2">Max Ziegler, KAM at Out Of Home</p>
             </div>
           </blockquote>
 
