@@ -147,14 +147,14 @@ const Products = () => {
 
       <section className="p-8 bg-gray-100 text-black">
   <h3 className="text-2xl font-bold mb-4 text-center">Process</h3>
-  <div className="flex justify-center items-center space-x-4 md:space-x-8">
+  <div className="flex flex-col md:flex-row justify-center items-center space-y-6 md:space-y-0 md:space-x-4 lg:space-x-8">
     <div className="text-center">
       <div className="w-28 h-28 flex items-center justify-center rounded-full border-2 border-yellow-400 text-black mb-2 p-2 hover:bg-yellow-400 hover:text-black transition-colors duration-300">
         <span className="font-semibold text-sm">foundation</span>
       </div>
     </div>
 
-    <span className="material-symbols-outlined text-4xl text-black">
+    <span className="material-symbols-outlined text-4xl text-black hidden md:block">
       arrow_forward
     </span>
 
@@ -164,7 +164,7 @@ const Products = () => {
       </div>
     </div>
 
-    <span className="material-symbols-outlined text-4xl text-black">
+    <span className="material-symbols-outlined text-4xl text-black hidden md:block">
       arrow_forward
     </span>
 
@@ -174,7 +174,7 @@ const Products = () => {
       </div>
     </div>
 
-    <span className="material-symbols-outlined text-4xl text-black">
+    <span className="material-symbols-outlined text-4xl text-black hidden md:block">
       arrow_forward
     </span>
 
@@ -185,6 +185,7 @@ const Products = () => {
     </div>
   </div>
 </section>
+
 
 
 
