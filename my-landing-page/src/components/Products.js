@@ -95,8 +95,8 @@ const Products = () => {
             <p className="text-gray-600">#startups #uxdesign #uidesign #productmanagement #fullstack #coding</p>
           </div>
         </div>
-        <div className="mt-4 text-right">
-          <Link to="/CaseStudies" className="text-yellow-400 hover:underline">View case studies &rarr;</Link>
+        <div className="mt-8 text-right">
+          <Link to="/CaseStudies" className="inline-flex items-center px-6 py-3 bg-yellow-400 text-black font-semibold rounded-md hover:bg-yellow-500 transition-colors duration-300">View case studies &rarr;</Link>
         </div>
       </section>
 
@@ -139,9 +139,6 @@ const Products = () => {
       <section className="flex justify-end p-8 bg-gray-100 text-black">
         <a href="/contact" className="bg-yellow-400 text-black font-semibold py-3 px-6 rounded-md inline-flex items-center hover:bg-yellow-500 transition-colors duration-300">
         Get in touch
-        <span className="material-symbols-outlined text-2xl ml-2">
-          arrow_forward
-        </span>
         </a>
       </section>
 

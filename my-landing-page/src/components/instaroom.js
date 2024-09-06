@@ -11,7 +11,7 @@ const Instaroom = () => {
       {/* Hero Section */}
       <Hero 
         backgroundImage="/path-to-your-image.jpg"
-        title="Conversational automations platform" 
+        title="Chat-bot platform" 
       />
 
       {/* Case Study Content */}
@@ -64,6 +64,13 @@ const Instaroom = () => {
               className="w-full max-w-lg mx-auto rounded-lg"
             />
           </div>
+
+           {/* Call-to-Action Button */}
+      <section className="flex justify-end p-8 text-black">
+        <a href="/contact" className="bg-yellow-400 text-black font-semibold py-3 px-6 rounded-md inline-flex items-center hover:bg-yellow-500 transition-colors duration-300">
+        Get in touch
+        </a>
+      </section>
         </div>
       </section>
 

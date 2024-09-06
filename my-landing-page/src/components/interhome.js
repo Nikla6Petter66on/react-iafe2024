@@ -18,7 +18,7 @@ const Interhome = () => {
       <section className="bg-white text-black py-8">
         <div className="container mx-auto max-w-4xl px-4">
           <h2 className="text-3xl font-bold mb-4 text-center">Vacation Home Owner Web App</h2>
-          <p className="mb-8 text-center">A Europe-leading vacation home operator contacted me as they needed help to rebuild their digital solutions for their homeowners. They were stuck in offline processes that could not scale and they had low user adoption in existing tools.</p>
+          <p className="mb-8 text-center">A Europe-leading vacation home operator with over 20.000 vacation homes across Europe contacted me as they needed help to rebuild their digital solutions for their homeowners. They were stuck in offline processes that could not scale and they had low user adoption in existing tools.</p>
           
           <div className="mb-8">
             <img 
@@ -29,10 +29,10 @@ const Interhome = () => {
           </div>
 
           <h3 className="text-2xl font-semibold mb-4">Challenge</h3>
-          <p className="mb-8">The existing product faced challenges with user retention, complex navigation, and an outdated design that hindered its potential for growth. The goal was clear - to create a visually appealing, user-friendly platform that not only attracted more users but also enabled revenue growth.</p>
+          <p className="mb-8">The existing product faced challenges with user retention, complex navigation, and an outdated design that hindered its potential for growth. The goal was clear - to create a visually appealing, user-friendly platform that not only attracted more users but also enabled revenue growth and automation of offline processes.</p>
 
           <h3 className="text-2xl font-semibold mb-4">Solution</h3>
-          <p className="mb-8">The team and I embarked on a comprehensive redesign journey. We began with a thorough analysis of user behaviors, identifying pain points and areas of improvement.</p>
+          <p className="mb-8">The team and I embarked on a comprehensive redesign journey. We began with a thorough analysis of user behaviors, identifying pain points and areas of improvement. We also mapped out user journeys and core business processes to get an overview of priorities. The first KPI was User Adoption. Followed by Happiness, Engagement, Retention and Task success. These KPIs gave us a clear direction for our priorities after the first release.</p>
 
           <div className="mb-8">
             <img 
@@ -43,7 +43,7 @@ const Interhome = () => {
           </div>
 
           <h3 className="text-2xl font-semibold mb-4">Results</h3>
-          <p className="mb-8">The impact of the redesign was immediate and significant. Within the first three months of the relaunch, the new product experienced a 100% increase in user engagement. Users were more active, and retention rates skyrocketed.</p>
+          <p className="mb-8">The impact of the redesign was immediate and significant. Within the first three months of the relaunch, the new product experienced a 300% increase in user adoption. Users became active within the product, and retention rates skyrocketed. The business now have a centralized home-owner platform from which they can automate operational heavy processes and tasks while empowering their home-owners with data, actionable tasks and centralized communication.</p>
 
           <blockquote className="italic text-lg text-center bg-gray-100 p-4 rounded-lg">
             "I had the opportunity to work under Niklas's management. He is undoubtedly the best manager I ever had. His supportive, willingness to win in combination with his human approach made me feel very comfortable and motivated. Niklas not only spoke empathy, but also showed it. I learned a lot by working for Niklas and he has shown me the true qualities of being a good manager. I can only give him my warmest recommendations for the future. He is a great asset to any team."
@@ -64,8 +64,16 @@ const Interhome = () => {
               className="w-full max-w-lg mx-auto rounded-lg" 
             />
           </div>
+
+          <section className="flex justify-end p-8 text-black">
+        <a href="/contact" className="bg-yellow-400 text-black font-semibold py-3 px-6 rounded-md inline-flex items-center hover:bg-yellow-500 transition-colors duration-300">
+        Get in touch
+        </a>
+      </section>
         </div>
       </section>
+
+     
 
       {/* Footer */}
       <Footer />
