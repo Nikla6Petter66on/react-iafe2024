@@ -64,9 +64,6 @@ const AboutMe = () => {
             </div>
           </div>
           <section className="flex justify-end p-8 text-black">
-        <a href="/contact" className="bg-yellow-400 text-black font-semibold py-3 px-6 rounded-md inline-flex items-center hover:bg-yellow-500 transition-colors duration-300">
-        Get in touch
-        </a>
       </section>
         </div>
       </section>
