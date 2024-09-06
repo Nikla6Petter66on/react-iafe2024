@@ -99,23 +99,23 @@ const Products = () => {
           </div>
         </div>
       </section>
-
-      {/* Process Overview */}
-      <section className="p-8 bg-gray-100 text-black">
-        <h3 className="text-2xl font-bold mb-4 text-center">Process</h3>
-        <div className="flex justify-center items-center space-x-4 md:space-x-8">
-          {steps.map((step, index) => (
-            <div key={step.name} className="text-center">
-              <div
-                className={`w-28 h-28 flex items-center justify-center rounded-full border-2 border-yellow-400 text-black mb-2 p-2 cursor-pointer hover:bg-yellow-400 hover:text-black transition-colors duration-300 ${activeStep === index ? 'bg-yellow-400' : ''}`}
-                onClick={() => setActiveStep(index)} // Allow manual click to change the step
-              >
-                <span className="font-semibold text-sm">{step.name}</span>
+      
+        {/* Process Overview */}
+        <section className="p-8 bg-gray-100 text-black">
+          <h3 className="text-2xl font-bold mb-4 text-center">Process</h3>
+          <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4 md:space-x-8">
+            {steps.map((step, index) => (
+              <div key={step.name} className="text-center">
+                <div
+                  className={`w-28 h-28 flex items-center justify-center rounded-full border-2 border-yellow-400 text-black mb-2 p-2 cursor-pointer hover:bg-yellow-400 hover:text-black transition-colors duration-300 ${activeStep === index ? 'bg-yellow-400' : ''}`}
+                  onClick={() => setActiveStep(index)} // Allow manual click to change the step
+                >
+                  <span className="font-semibold text-sm">{step.name}</span>
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
-      </section>
+            ))}
+          </div>
+        </section>
 
       {/* Step Content Section */}
       <section className="p-8 bg-white text-black">
