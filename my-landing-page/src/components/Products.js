@@ -91,7 +91,7 @@ const Products = () => {
           </div>
           <div className="border p-4 rounded">
             <img src="/images/instaroomChatPanel.jpg" alt="Web app for team offsite booking" className="mb-2"/>
-            <h4 className="font-semibold">SaaS platform powering customizable conversational automations</h4>
+            <h4 className="font-semibold">SaaS chat-bot platform</h4>
             <p className="text-gray-600">#startups #uxdesign #uidesign #productmanagement #fullstack #coding</p>
           </div>
         </div>

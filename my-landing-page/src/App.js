@@ -13,25 +13,27 @@ import Launch from './components/Launch';
 import Footer from './components/Footer';
 import Instaroom from './components/instaroom';
 import Interhome from './components/interhome';
+import ScrollToTop from './components/ScrollToTop';
 
 
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/contact" element={<ContactMe />} />
-        <Route path="/products" element={<Products />}>
-          <Route path="foundation" element={<Foundation />} />
-          <Route path="exploration" element={<Exploration />} />
-          <Route path="development-testing" element={<DevelopmentTesting />} />
-          <Route path="launch" element={<Launch />} />
-        </Route>
-        <Route path="/aboutme" element={<AboutMe />} />
-        <Route path="/casestudies" element={<CaseStudies />} /> 
-        <Route path="/instaroom" element={<Instaroom />} /> 
-        <Route path="/interhome" element={<Interhome />} />
-      </Routes>
+      <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/contact" element={<ContactMe />} />
+          <Route path="/products" element={<Products />}>
+            <Route path="foundation" element={<Foundation />} />
+            <Route path="exploration" element={<Exploration />} />
+            <Route path="development-testing" element={<DevelopmentTesting />} />
+            <Route path="launch" element={<Launch />} />
+          </Route>
+          <Route path="/aboutme" element={<AboutMe />} />
+          <Route path="/casestudies" element={<CaseStudies />} /> 
+          <Route path="/instaroom" element={<Instaroom />} /> 
+          <Route path="/interhome" element={<Interhome />} />
+        </Routes>
     </Router>
   );
 }

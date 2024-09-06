@@ -11,7 +11,7 @@ const Homepage = () => {
 
       <main>
         <Hero
-          title="Crafting Digital Excellence."
+          title="Your digital success starts here."
           backgroundImage="/path-to-your-image.jpg"
         />
 
@@ -83,7 +83,7 @@ const Homepage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="border p-4 rounded">
               <img src="/images/vacatioHomeAppImage.jpg" alt="Work 1" className="mb-2" />
-              <h4 className="font-semibold">Web app for 20,000 vacation rental home owners</h4>
+              <h4 className="font-semibold">Web app for 20.000 vacation home owners with a portfolio value of 400M EUR</h4>
               <p>Product Management, Web-App, Digital Transformation, Digitalization, Digital Strategy</p>
             </div>
             <div className="border p-4 rounded">
