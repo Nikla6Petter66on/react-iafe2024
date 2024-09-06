@@ -16,20 +16,20 @@ const Interhome = () => {
 
       {/* Case Study Content */}
       <section className="bg-white text-black py-8">
-        <div className="container mx-auto">
-          <h2 className="text-3xl font-bold mb-4">Vacation Home Owner Web App</h2>
-          <p className="mb-8">A Europe leading vacation home operator contacted me as they needed help to rebuild their digital solutions for their homeowners. They were stuck in offline processes that could not scale and they had low user adoption in existing tools.</p>
+        <div className="container mx-auto max-w-4xl px-4">
+          <h2 className="text-3xl font-bold mb-4 text-center">Vacation Home Owner Web App</h2>
+          <p className="mb-8 text-center">A Europe-leading vacation home operator contacted me as they needed help to rebuild their digital solutions for their homeowners. They were stuck in offline processes that could not scale and they had low user adoption in existing tools.</p>
           
           <div className="mb-8">
             <img 
               src="/images/LoginPage.png" 
               alt="Booking calendar" 
-              className="w-full rounded-lg" 
+              className="w-full max-w-md mx-auto rounded-lg" 
             />
           </div>
 
           <h3 className="text-2xl font-semibold mb-4">Challenge</h3>
-          <p className="mb-8">The existing product faced challenges with user retention, complex navigation, and an outdated design that hindered its potential for growth. The goal was clear - to create a visually appealing, user-friendly platform that not only attracted more users but also could enable revenue growth.</p>
+          <p className="mb-8">The existing product faced challenges with user retention, complex navigation, and an outdated design that hindered its potential for growth. The goal was clear - to create a visually appealing, user-friendly platform that not only attracted more users but also enabled revenue growth.</p>
 
           <h3 className="text-2xl font-semibold mb-4">Solution</h3>
           <p className="mb-8">The team and I embarked on a comprehensive redesign journey. We began with a thorough analysis of user behaviors, identifying pain points and areas of improvement.</p>
@@ -38,7 +38,7 @@ const Interhome = () => {
             <img 
               src="/images/homePage.png" 
               alt="Opportunities" 
-              className="w-full rounded-lg" 
+              className="w-full max-w-lg mx-auto rounded-lg" 
             />
           </div>
 
@@ -61,7 +61,7 @@ const Interhome = () => {
             <img 
               src="/images/YourOppurtunitiesPage.png" 
               alt="Inbox" 
-              className="w-full rounded-lg" 
+              className="w-full max-w-lg mx-auto rounded-lg" 
             />
           </div>
         </div>

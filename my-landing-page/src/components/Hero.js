@@ -9,9 +9,7 @@ const Hero = ({ title, backgroundImage }) => {
       <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-8">
         {title}
       </h2>
-      <span className="material-symbols-outlined text-yellow-400 text-6xl mt-12">
-        arrow_downward
-      </span>
+      
     </section>
   );
 };

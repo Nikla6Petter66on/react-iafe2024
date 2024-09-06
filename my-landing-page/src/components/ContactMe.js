@@ -12,7 +12,7 @@ const ContactMe = () => {
         <Header />
 
         <Hero
-            title="Lets grab a coffee"
+            title="Lets grab a coffee."
             backgroundImage="/images/backgroundimage.png"
         
         />
