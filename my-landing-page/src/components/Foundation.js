@@ -3,7 +3,7 @@ import React from 'react';
 const Foundation = () => {
   return (
     <div>
-      <h3 className="text-2xl font-bold mb-4">Foundation</h3>
+      <h3 className="text-2xl font-bold mb-4">strategy & OKRs</h3>
       <p>
       Let's get the foundation right. Let's start by figuring out the Why, Who, What, and How for your project.
 

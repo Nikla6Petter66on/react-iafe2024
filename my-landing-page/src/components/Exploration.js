@@ -3,10 +3,10 @@ import React from 'react';
 const Exploration = () => {
   return (
     <div>
-      <h3 className="text-2xl font-bold mb-4">Exploration</h3>
+      <h3 className="text-2xl font-bold mb-4">user experience design</h3>
       <p>
-      Building digital products, driving digital transformation, and achieving growth from digital products and services is complex and difficult.
-        I believe that the foundation of a successful digital project is the User Experience (UX). The User Experience is what your customer/user sees when interacting with you, whether that is in your internal project management tool, product platform, app idea, or your new website.
+        Building digital products, driving digital transformation, and achieving growth from digital products and services is complex and difficult.
+        I believe that the foundation of a successful digital project is the User Experience (UX). 
         The User Experience is what has been the key driver behind the success of some of the biggest companies in the world.
         Apple with its unique phone and tablet experience, Google with its simple and easy-to-use search interface, Facebook with its “endless scrolling” functionality, and Instagram with its easy-to-share and view content platform just to name a few examples.
         McKinsey (2020) has in a report released the main factors behind the success of some the fastest growing digital products and services. Excellent user designs and strong end user focus throughout the development process was pinpointed as one of the main factors.

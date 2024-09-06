@@ -28,8 +28,9 @@ const ContactMe = () => {
     <section className="flex items-start justify-center min-h-[70vh] py-8 px-8"> {/* Reduced min-h and aligned items to start */}
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8">Contact me</h2>
-          <div className="bg-gray-100 p-8 rounded-lg shadow-lg inline-block">
+          <div className="p-8 rounded-lg shadow-lg inline-block">
             <h3 className="text-xl font-semibold mb-4">Shoot me an email</h3>
+            <h5 className="font-semibold mb-4">Clicking on the button will expose my email address and open your email program</h5>
             <a
               href="mailto:niklas@iamfrontend.com?subject=Lets grab a coffee&body=Hi Niklas, looking forward to getting in touch"
               className="bg-yellow-400 hover:bg-yellow-500 text-white font-bold py-3 px-6 rounded-lg inline-block"
