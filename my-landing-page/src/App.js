@@ -14,6 +14,7 @@ import Footer from './components/Footer';
 import Instaroom from './components/instaroom';
 import Interhome from './components/interhome';
 import ScrollToTop from './components/ScrollToTop';
+import Blog from './components/Blog';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path="/casestudies" element={<CaseStudies />} /> 
           <Route path="/instaroom" element={<Instaroom />} /> 
           <Route path="/interhome" element={<Interhome />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
     </Router>
   );
