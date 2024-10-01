@@ -83,15 +83,36 @@ const Homepage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="border p-4 rounded">
               <img src="/images/vacatioHomeAppImage.jpg" alt="Work 1" className="mb-2" />
-              <h4 className="font-semibold">Web app for 20.000 vacation home owners with a portfolio value of 400M EUR</h4>
+              <h4 className="font-semibold">Web app for 20.000 vacation home owners</h4>
               <p>Product Management, Web-App, Digital Transformation, Digitalization, Digital Strategy</p>
             </div>
             <div className="border p-4 rounded">
               <img src="/images/teamOffsiteBookingImage.jpg" alt="Work 2" className="mb-2" />
-              <h4 className="font-semibold">Web app for booking team offsites</h4>
+              <h4 className="font-semibold">Web app for booking team offsites across Nordics</h4>
               <p>Coding, Design, Digital Strategy, Web-App, Startups</p>
             </div>
+            <div className="border p-4 rounded">
+              <img src="/images/PerformanceAnalytics.jpg" alt="Work 2" className="mb-2" />
+              <h4 className="font-semibold">Performance Management Application for Sony Mobile</h4>
+              <p>Design, Digital Strategy, Web-App, Digitalization, Product Management</p>
+            </div>
+            <div className="border p-4 rounded">
+              <img src="/images/MandCHotels.jpg" alt="Work 2" className="mb-2" />
+              <h4 className="font-semibold">Digital concierge for luxury hospitality brand</h4>
+              <p>Design, Digital Strategy, Web-App, Digitalization, Product Management, Coding</p>
+            </div>
+
+            <div className="border p-4 rounded">
+              <img src="/images/MusicStudio.jpg" alt="Work 2" className="mb-2" />
+              <h4 className="font-semibold">Music Studio Re-branding</h4>
+              <p>Coding, Design, Digital Strategy, Web-App, Product Management, Digital Marketing</p>
+            </div>
+
           </div>
+
+          
+
+          
 
           <div className="mt-8 text-right">
             <Link
