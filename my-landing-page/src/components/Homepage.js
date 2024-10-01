@@ -138,16 +138,15 @@ const Homepage = () => {
               <h2 className="text-3xl font-bold mb-4">About me</h2>
               <h3 className="text-xl font-semibold mb-4">Product Leader</h3>
               <p className="text-base leading-relaxed">
-                I am an experienced Senior Product Manager, founder, and business developer with over ten years of
+                I am an experienced Product Manager, start up founder, and business developer with over ten years of
                 expertise in digital, particularly within startup environments and in digital transformation settings.
-                My background includes a strong focus on product development, user experience (UX/UI), and data-driven
+                My background includes a strong focus on product and business development, user experience (UX/UI), and data-driven
                 decision-making.
               </p>
               <p className="text-base leading-relaxed mt-4">
                 My career has been marked by a deep commitment to simplifying complex digital experiences for
-                non-tech-savvy clients, particularly in the travel and hotel-tech sectors but also across other
-                industries. I have extensive experience conducting market research, analyzing product usage data, and
-                transforming customer feedback into actionable insights.
+                non-tech-savvy clients, across multiple industries. I have extensive experience developing new products and markets, analyzing product user data,
+                transforming customer feedback into actionable insights, and succefully launching new products and processes across complex organizational structures and in new markets.
               </p>
             </div>
           </div>

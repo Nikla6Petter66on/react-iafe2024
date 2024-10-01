@@ -29,10 +29,10 @@ const Instaroom = () => {
           </div>
 
           <h3 className="text-2xl font-semibold mb-4">Challenge</h3>
-          <p className="mb-8">Complex bookings (e.g a family booking with connecting rooms) are hard to book and to process for accommodation operators.</p>
+          <p className="mb-8">Managing complex booking scenarios, such as family reservations requiring multiple rooms, posed significant challenges for accommodation operators. These bookings were difficult to process efficiently, leading to operational inefficiencies and a subpar customer experience.</p>
 
           <h3 className="text-2xl font-semibold mb-4">Solution</h3>
-          <p className="mb-8">White-label/Customizable chat-bots that integrate with accommodation inventory via APIs and are designed for booking and processing complex bookings.</p>
+          <p className="mb-8">We developed customizable chatbots that easily connect with accommodation systems, allowing users to make and manage complex bookings, such as multi-room reservations, in a seamless and efficient way.</p>
 
           <div className="mb-8">
             <img 
@@ -43,7 +43,7 @@ const Instaroom = () => {
           </div>
 
           <h3 className="text-2xl font-semibold mb-4">Results</h3>
-          <p className="mb-8">We closed 1M+ EUR in funding, 50+ hotel groups as customers, 400K+ EUR in sales, and hundreds of thousands of end-users.</p>
+          <p className="mb-8">As both co-founder and product leader, I played a pivotal role in driving the growth and success of our startup. We secured over €1M in funding, attracted 50+ hotel groups as customers, and generated more than €400K in sales. Our platform engaged hundreds of thousands of end-users, solving complex booking challenges and streamlining operations for hotel operators. Leading the product development from the ground up, I was deeply involved in every phase—from ideation and design to execution and iteration. This hands-on experience, coupled with my responsibilities as a co-founder, gave me the unique perspective of balancing product vision with business strategy, ensuring that we delivered a solution that not only met market needs but also scaled effectively within the highly competitive hospitality industry.</p>
 
           <blockquote className="italic text-lg text-center bg-gray-100 p-4 rounded-lg">
             "I had the opportunity to work under Niklas's management. He is undoubtedly the best manager I ever had. His supportive, willingness to win in combination with his human approach made me feel very comfortable and motivated. Niklas not only spoke empathy, but also showed it. I learned a lot by working for Niklas and he has shown me the true qualities of being a good manager. I can only give him my warmest recommendations for the future. He is a great asset to any team."

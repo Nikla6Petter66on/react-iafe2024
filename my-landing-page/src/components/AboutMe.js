@@ -23,7 +23,7 @@ const AboutMe = () => {
           <p className="mb-8">
             I am always on the lookout for creative ideas, difficult problems to solve or exciting challenges. 
             As a trailblazer in the world of IT and design, I believe in fostering a collaborative environment where your ideas can thrive 
-            and the opportunity and potential of your idea or problem can flourish.
+            and the opportunity and potential of your idea can flourish.
           </p>
 
           {/* Image Section */}

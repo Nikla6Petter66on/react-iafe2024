@@ -5,12 +5,15 @@ const DevelopmentTesting = () => {
     <div>
       <h3 className="text-2xl font-bold mb-4">continuous learning</h3>
       <p>
-      If you start your digital project without testing the idea with your users you are making a huge gamble of your money and resources. The risk is that you start to build something that does not have the right foundation.  You might realize when you have already worked your way through half your budget in development costs, that the original designs and ideas were not what your end users need. To start over and rebuild is expensive, not to mention the loss of time and frustration that you will experience.
-        Let's run multiple different variants and learn from user interactions what gives the best results. Let's use the data we collect from this process to feed our roadmap so that we can iterate on the product efficiently and learn from the users and how they interact with the product while also using this as a method to set priorities and find the direction of the product.
-        I embrace an agile development methodology that ensures flexibility and adaptability throughout the project lifecycle. This iterative approach allows us to respond promptly to evolving requirements incorporate feedback seamlessly, and deliver high-quality solutions efficiently.
-        I have experience working in multiple different project environments, tools, and infrastructures, e.g. Jira, Monday.com, Miro, and Salesforce to just mention a few. I will structure the entire product lifecycle through various tools that will give you the flexibility and overview that you need to make the right decisions. 
-        I can set up and manage the entire infrastructure needed for the product (effectively functioning as a CTO) and ensure that the product can scale as you reach product success. If needed, I can also support you as a coder in your project as I have experience in building full-stack applications by myself. 
+      Starting a digital project without testing your idea with real users is a significant risk to both your resources and budget. Without the proper foundation, you may find yourself halfway through development costs, only to discover that the original designs or concepts do not meet your users' needs. Rebuilding at this stage is not only expensive but also leads to lost time and frustration.
 
+To avoid this, I recommend running multiple variants of your product and analyzing user interactions to determine what yields the best results. By gathering data from these tests, we can refine the product roadmap, set clear priorities, and iteratively improve the product. This ensures that user feedback drives development, allowing us to build a solution that aligns closely with their needs while making well-informed decisions about the product’s direction.
+
+I advocate for an agile development methodology, which offers the flexibility to adapt to changing requirements and incorporate feedback seamlessly. This iterative approach enables us to respond quickly to evolving user expectations, delivering high-quality solutions efficiently without veering off course.
+
+In addition to structuring the development process, I am also capable of setting up and managing the entire infrastructure for your product, essentially functioning as a CTO. I will ensure the scalability of the product as it grows and gains traction. Furthermore, if needed, I can provide hands-on technical support, having built full-stack applications myself, to ensure the product development progresses smoothly from start to finish.
+
+The key to minimizing risk and maximizing success lies in continuously testing, learning, and iterating. Let’s work together to create a product that not only meets user needs but thrives in a dynamic digital landscape.
       </p>
     </div>
   );
