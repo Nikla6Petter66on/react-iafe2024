@@ -138,15 +138,14 @@ const Homepage = () => {
               <h2 className="text-3xl font-bold mb-4">About me</h2>
               <h3 className="text-xl font-semibold mb-4">Product Leader</h3>
               <p className="text-base leading-relaxed">
-                I am an experienced Product Manager, start up founder, and business developer with over ten years of
-                expertise in digital, particularly within startup environments and in digital transformation settings.
-                My background includes a strong focus on product and business development, user experience (UX/UI), and data-driven
-                decision-making.
+              With a results-driven approach, I help organizations achieve meaningful outcomes by combining technical expertise, strategic product management, and business development. My focus is on delivering digital solutions that drive user engagement, streamline processes, and create tangible value for businesses. I bring experience in full-stack coding, product management and business development enabling me to build scalable, high-performance applications that are both user-friendly and efficient.
               </p>
               <p className="text-base leading-relaxed mt-4">
-                My career has been marked by a deep commitment to simplifying complex digital experiences for
-                non-tech-savvy clients, across multiple industries. I have extensive experience developing new products and markets, analyzing product user data,
-                transforming customer feedback into actionable insights, and succefully launching new products and processes across complex organizational structures and in new markets.
+As a Senior Product Manager, I have successfully led cross-functional teams from ideation to launch, ensuring that every product aligns with user needs and business objectives. My deep understanding of agile methodologies and data-driven decision-making allows me to adapt quickly to evolving requirements while keeping the goals on track.
+
+In addition to my technical and product management skills, I excel in business development, having played a key role in securing funding, driving sales, and scaling digital products to new markets. With over a decade of experience across startups and digital transformation projects, I understand the complexities of building innovative products and growing them in competitive environments.
+
+By combining technical proficiency with strategic business insights, I deliver results that not only meet but exceed expectations, positioning organizations for long-term success.
               </p>
             </div>
           </div>
