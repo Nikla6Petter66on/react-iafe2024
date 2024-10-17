@@ -80,7 +80,6 @@ const CaseStudies = () => {
       {/* Case Studies Section */}
       <section className="bg-gray-100 py-8 text-black">
         <div className="container mx-auto">
-          <h2 className="text-2xl font-bold mb-6">Example of Products I have built</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
             {/* Case Study 1 */}
             <Link to="/instaroom" className="bg-white p-4 rounded-lg shadow-lg flex flex-col h-full">
