@@ -10,7 +10,7 @@ const Foundation = () => {
 
   Why?
   We begin with the most fundamental question: “Why are we doing this?” The “Why” uncovers the true purpose behind your project. It helps identify your goals, the impact you aim to create, and the measurable outcomes that will define success. Establishing clear objectives, key performance indicators (KPIs), and OKRs (Objectives and Key Results) ensures that every decision moving forward is aligned with your overall vision. By understanding the "Why," we’ll be able to focus on what matters most—both for your users and for your business.
-
+  
   Who?
   Next, we ask, “Who are we doing this for?” Understanding your target audience is critical to building a solution that resonates. Who are your users? More importantly, who are the key users that will determine the success of your project? Defining the “Who” helps us identify the people who will benefit most from your solution and who will drive the desired effect. With a clear understanding of your users, we’ll be able to tailor your product or service to meet their specific needs and expectations.
 

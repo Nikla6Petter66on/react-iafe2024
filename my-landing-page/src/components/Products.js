@@ -126,7 +126,7 @@ const Products = () => {
 
       {/* Featured Products */}
       <section className="p-8 bg-white text-black">
-        <h3 className="text-2xl font-bold mb-4">Additional examples of products I have developed</h3>
+        <h3 className="text-2xl font-bold mb-4">Additional products I have developed</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="border p-4 rounded">
             <img src="/images/interchalet.png" alt="Web app for vacation home owners" className="mb-2" />
